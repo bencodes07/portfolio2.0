@@ -3,7 +3,7 @@ import { FiMail } from "react-icons/fi";
 
 function Sidebar() {
   return (
-    <aside className="h-screen max-md:hidden w-[120px] sticky z-50 top-0 bg-primary border-r-2 border-divider-gray flex items-center justify-between flex-col">
+    <div className="h-[100lvh] max-md:hidden w-[120px] fixed left-0 z-50 top-0 bg-primary border-r-2 border-divider-gray flex items-center justify-between flex-col">
       <div className="logo mt-[20px] w-[120px] flex justify-center items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ function Sidebar() {
           <FiMail size={32} />
         </a>
       </div>
-    </aside>
+    </div>
   );
 }
 

@@ -11,7 +11,7 @@ import Projects from "@/components/Projects";
 export default function Home() {
   return (
     <>
-      <div className="flex">
+      <div className="flex justify-end">
         <Sidebar />
         <main className="w-[calc(100%-120px)] bg-primary">
           <BgParticles />
