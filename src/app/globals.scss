@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Kollektif";
+  src: url("/Kollektif.ttf");
+}
+
+@font-face {
+  font-family: "Kollektif-Bold";
+  src: url("/Kollektif-Bold.ttf");
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100svh;
+  background-color: #292731;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+html {
+  max-width: 100vw;
+}
+
+canvas {
+  position: absolute;
+}
+
+section {
+  min-height: 100svh;
+}
+
+.cls-1 {
+  fill: none;
+  stroke: #6d94c6;
+  stroke-miterlimit: 10;
+  stroke-width: 30px;
+}
+
+.cls-2 {
+  fill: #6d94c6;
+  font-family: MicrosoftSansSerif, "Microsoft Sans Serif";
+  font-size: 305.69px;
+}
+
+.heroHeadingSpan {
+  text-shadow: -1px -1px 0 #4f4c61, 1px -1px 0 #4f4c61, -1px 1px 0 #4f4c61,
+    1px 1px 0 #4f4c61;
+}
