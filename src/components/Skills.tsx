@@ -20,7 +20,7 @@ function Skills() {
             <h2 className="text-white text-2xl max-sm:text-xl">Backend</h2>
             <div className="bg-light-gray w-[90px] h-[1px] my-3"></div>
             <p className="text-center text-white w-28 h-28 font-light text-base max-sm:text-sm">
-              NodeJS, ExpressJS
+              NodeJS, ExpressJS, Firebase
             </p>
           </div>
           <div className="w-[150px] h-[inherit] flex flex-col items-center justify-center">
@@ -31,7 +31,7 @@ function Skills() {
             <h2 className="text-white text-2xl max-sm:text-xl">Data</h2>
             <div className="bg-light-gray w-[90px] h-[1px] my-3"></div>
             <p className="text-center text-white w-28 h-28 font-light text-base max-sm:text-sm">
-              MySQL, MongoDB, Firebase
+              MySQL, MongoDB
             </p>
           </div>
         </div>
@@ -39,8 +39,8 @@ function Skills() {
           <div className=" bg-accent w-[3px] rounded-md h-36 mr-5"></div>
           <blockquote className="w-[25vw] text-white font-normal text-lg">
             Obviously as a Full-Stack-Developer I don&apos;t know every
-            technology / framework, so if you or your company use something
-            different I am always open to learning something new!
+            technology / framework, so if you or your company use different tech
+            stacks I am always open to learning something new!
           </blockquote>
         </div>
       </div>

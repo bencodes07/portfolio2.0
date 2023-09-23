@@ -20,16 +20,21 @@ function ProjectCard(props: Props) {
         alt="Project Image"
         className="h-[150px] ml-[2px] mt-[2px] w-[calc(100%-4px)] rounded-md object-cover shadow-lg relative"
       />
-      <div className="p-5">
-        <h1 className="mb-2 text-lg font-semibold text-[#fff]">
-          {props.title}
-        </h1>
-        <p className="mb-3 text-sm font-normal text-[#fff]">
-          {props.description}
-        </p>
-        <p className="mb-3 w-fit py-1 px-2 rounded-lg text-sm font-semibold bg-divider-gray text-[#fff]">
-          {props.techstack}
-        </p>
+      <div className="p-5 flex justify-between flex-col h-full">
+        <div>
+          <h1 className="mb-2 text-lg font-semibold text-[#fff]">
+            {props.title}
+          </h1>
+          <p className="mb-3 text-sm font-normal text-[#fff]">
+            {props.description}
+          </p>
+        </div>
+
+        <div>
+          <p className="w-fit py-1 px-2 rounded-lg text-sm font-semibold bg-divider-gray text-[#fff]">
+            {props.techstack}
+          </p>
+        </div>
       </div>
       <div className="absolute bottom-5 right-5 flex items-center space-x-10">
         <Link

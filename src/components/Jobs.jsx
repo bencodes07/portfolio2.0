@@ -10,22 +10,23 @@ function Jobs(props) {
     },
     job2: {
       title: "Work Experience",
-      description: "I did work experience in a filming company.",
-      date: "June 2023",
+      description: `My first ever work experience was at an IT company called "NCC Guttermann". I was there for 2 weeks and learned a lot about servers and how to set them up. I also learned how to set up an enterprise network and other things.`,
+      date: "June 2022",
     },
     job3: {
       title: "Work Experience",
-      description: `I did work expierence in a kindergarten. I was there for 2 weeks.`,
-      date: "August 2017 - Present",
+      description: `My second work experience was at a kindergarten called "Apostel-Kindergarten". I was there for 2 weeks and learned a lot about how to work with children and how to teach them. I also learned how to work with a team and how to be a good team player.`,
+      date: "April 2023",
     },
     job4: {
       title: "Secondary School",
-      description: `From 2017 until now I have been in the "Gymnasium St. Mauritz". A school that looks like hogwarts :). I am going to be there until 2025. That is when i will get my "A-Levels". In Germany everything is a little different to England or America.`,
+      description: `From 2017 until now I have been in the "Gymnasium St. Mauritz". A school that looks like hogwarts :). I am going to be there until 2025. That is when i will get my "Abitur". In Germany everything is a little different to England or America.`,
       date: "August 2017 - Present",
     },
     job5: {
       title: "TCG Vault",
-      description: "TCG Vault is a management solution to storing your tcg's.",
+      description:
+        "Currently I am working at TCG Vault. I am a frontend developer there. TCG Vault is a website where you can store your TCG cards.",
       date: "October 2023 - Present",
     },
   });
@@ -154,10 +155,10 @@ function Jobs(props) {
   return (
     <div className="flex row justify-start items-center z-10 ml-0 max-md:ml-[-40px] max-sm:ml-[-7.5rem] pb-3 mt-[20px] w-[50vw] max-md:w-[80vw]">
       <div className="sideList w-[10rem]">
-        <div
+        {/* <div
           ref={activeJob}
           className="activeJob content-none transition-[top] ease-in-out duration-300 w-[2px] h-10 bg-accent absolute rounded-lg mt-[-20px]"
-        ></div>
+        ></div> */}
         <ul className="flex flex-col justify-center items-center text-[#bbb] text-base cursor-pointer min-w-[170px]">
           <li
             onClick={(e) => handleJob1(e)}
